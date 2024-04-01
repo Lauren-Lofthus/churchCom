@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+
+} 
+
+#nav_Cont {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    border-bottom: solid black 2px;
+}
+
+#web_Title{
+    font-size: 2rem;
+
+}
+
+
+
+#fade {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    opacity: .75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+}
+#main_Img {
+    background-image: url(media/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.announcement_Cont {
+    background-color: white;
+    width: 70%;
+    max-width: 600px;
+    height: 150px;
+    margin: 20px;
+    opacity: 1;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    #web_Title{
+        font-size: 1.3rem;
+    
+    }
+}
+
+#bottom_Nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-top: solid black 2px;
+    position: sticky;
+    bottom: 0;
+    z-index: 4;
+}
+
+#announcement_Form {
+    color: white;
+    z-index: 3;
+    line-height: 1.75;
+}
+
+#fade h1 {
+    color: white;
+    z-index: 4;
+}
+
+#bottom_Nav {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_Nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    max-width: 500px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.nav_Icons{
+    width: 50px;
+
+}
+
