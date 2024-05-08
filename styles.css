@@ -9,7 +9,7 @@
 
 #nav_Cont {
     display: flex;
-    background-color: white;
+    background-color: #ffffff;
     height: 100px;
     width: 100%;
     align-items: center;
@@ -28,7 +28,7 @@
 
 
 #fade {
-    background-color: black;
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
     z-index: 2;
@@ -42,7 +42,7 @@
 
 }
 #main_Img {
-    background-image: url(media/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-image: url(media/home-background.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
@@ -52,7 +52,9 @@
 }
 
 .announcement_Cont {
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
     width: 70%;
     max-width: 600px;
     height: 150px;
@@ -74,7 +76,7 @@
 #bottom_Nav {
     height: 100px;
     width: 100%;
-    background-color: white;
+    background-color: #ffffff;
     border-top: solid black 2px;
     position: sticky;
     bottom: 0;
@@ -88,7 +90,7 @@
 }
 
 #fade h1 {
-    color: white;
+    color: #ffffff;
     z-index: 4;
 }
 
@@ -113,3 +115,41 @@
 
 }
 
+.announcement_Sum {
+    height: 100%;
+    width: 70%;
+}
+.edit_Button_Cont {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit_Button {
+    padding: 10px 20px;
+    background-color: #054caf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#full_Announce_Cont {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 40px;
+    opacity: 1;
+    border-radius: 20px;
+    width: 70%;
+    line-height: 3rem;
+}
+
+#full_Announce_Cont h2{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
